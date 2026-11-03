@@ -50,6 +50,7 @@ public class PlayerController : MonoBehaviour
 
         isGrounded = false;
         print("Zıpladın!");
+        AudioManager.Instance.PlayJump();
     }
 
     private void UpdateScoreUi()
@@ -71,14 +72,17 @@ public class PlayerController : MonoBehaviour
         if (other.CompareTag("GreenBall"))
         {
             Score += 10;
+            AudioManager.Instance.PlayPosCoin();
             UpdateScoreUi();
             Debug.Log("GreenBall! Score" + Score);
             Destroy(other.gameObject);
+           
         }
 
         else if (other.CompareTag("RedBall"))
         {
             Score -= 5;
+            AudioManager.Instance.PlayNegCoin();
             UpdateScoreUi();
             Debug.Log("RedBall! Score" + Score);
             Destroy(other.gameObject);
