@@ -1198,8 +1198,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d822d9e4bb597744b90539aa8d3679bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
-  moveSpeed: 33
-  jumpForce: 20
+  moveSpeed: 20
+  jumpForce: 15
   Score: 0
   scoreText: {fileID: 1691420117}
 --- !u!4 &1002038556 stripped
