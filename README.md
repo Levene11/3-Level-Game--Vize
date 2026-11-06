@@ -10,6 +10,12 @@ Oyunun Açıklaması
 Unity ve C# ile yapılmış üç seviyeli coin toplama oyunudur. Oyuncu WASD tuşları ile "Player"ı oynatır. Yeşil toplar 10 puan kazandırır, kırmızı toplar 5 puan eksiltir. 
 Hedef puanlar Level 1 için 30, Level 2 için 50, Level 3 için 70'tir. Yeterli puanla çıkış alanına giren oyuncu sonraki seviyeye geçer. Puan her seviyede sıfırdan başlar.
 
+Alınan Yardımlar:
+PlayerController 5.hafta gönderilen ballscript.cs kodundan yardım alınarak yazıldı.
+Audio Manager için geçen hafta derste çektiğim fotoğraftan yardım aldım. Sıralamada nasıl kodları dizeceğim konusunda (başta SerializeField yazdığım yerlerde Cloudedan yardım aldım)
+LevelControllerda InBuildSettingsi derste pek anlamadığımdan yaparkende şaşırdım Cloudedan manalarını sorarak istedim sonra kendim yazdım.
+Level Exitten de öncedeki ödevlerden ve birazcık da Cloudedan yardım aldım
+
 Scriptlerin Görevleri
 -PlayerController: Rigidbody ve AddForce ile hareketi, zıplamayı, OnTriggerEnter ve CompareTag ile top toplamayı, puan hesabını ve puan yazısını yönetir.
 -LevelController: Hedef puanı kontrol eder, SceneManager ile sahne geçişini yapar, mesajları gösterir.
