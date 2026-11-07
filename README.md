@@ -1,7 +1,7 @@
 3 Levelli Coin Toplama Oyunu
 
 Ad Soyad: Beyza Keskin
-Öğrenci No: 2502040018
+Öğrenci No: 2602020035
 Ders: Oyun İçin Kod Yazımı I(DOT6105) – Vize Ödevi
 
 Oynanış Videosu: https://youtu.be/MCajWATTJFE
